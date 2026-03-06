@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "The Convergence–Divergence Dual Model"
+message: "If you use this model, please cite it as below."
+authors:
+  - family-names: Francois
+    given-names: Finley Essai
+date-released: 2026
+repository-code: https://github.com/yourusername/social-convergence-model
+abstract: >
+  A systems framework modeling oscillatory dynamics between convergence and divergence
+  in distributed adaptive social and technological systems.
+keywords:
+  - social convergence
+  - divergence dynamics
+  - complex systems
+  - socio-technical systems
+  - entropy
+license: MIT
