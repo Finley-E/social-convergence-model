@@ -1,70 +1,47 @@
-# social-convergence-model
-A theoretical framework modeling oscillatory dynamics between convergence and divergence in distributed adaptive systems. Includes formal definitions, historical case analyses, and research directions for socio-technical and economic systems.
+# Social Convergence Model (SCM) / Convergence–Divergence Dual Model (CDDM)
 
+## Summary
+The **Social Convergence Model** proposes that complex social and technological systems oscillate between two phases:
+1. **Convergence** — stabilization and alignment of behaviors (entropy compression)
+2. **Divergence** — expansion of behavioral variance and innovation (entropy expansion)
 
-# Social Convergence Model (SCM)
+Systems remain resilient when these phases alternate within bounded entropy thresholds. This repository contains the full theoretical framework, mathematical formulations, and historical case analyses.
 
-The Social Convergence Model is a theoretical framework for understanding how distributed adaptive systems oscillate between convergence and divergence.
+## Definition: Social Convergence
+**Social convergence** refers to the statistical stabilization of dominant behavioral patterns across distributed agents under bounded rationality and shared constraints. It is not permanent alignment, but a temporary phase of entropy compression.
 
-Rather than modeling social stability as static equilibrium, the framework proposes that resilient systems operate within a bounded entropy bandwidth where behavioral alignment and divergence alternate dynamically.
+## Definition: Divergence
+**Divergence** describes the expansion of behavioral variance within a system, often associated with innovation, fragmentation, or systemic stress. It serves as an entropy regeneration mechanism.
 
-## Core Idea
+## Definition: Convergence–Divergence Dual Model (CDDM)
+The **Convergence–Divergence Dual Model** describes oscillatory transitions between entropy compression (convergence) and entropy expansion (divergence) in distributed adaptive systems. It introduces a **Healthy Oscillation Bandwidth** ($H_{min} < H_{system} < H_{max}$) to distinguish resilience from rigidity or chaos.
 
-Complex social systems do not remain permanently aligned. Instead they cycle through:
+## Core Constructs
+The framework introduces four key variables influencing behavioral entropy change ($dH/dt$):
+- **$C$** — Constraint intensity
+- **$P$** — Power concentration
+- **$F$** — Friction gradient
+- **$S$** — Systemic stress
 
-- Convergence (entropy compression)
-- Divergence (entropy expansion)
+## Key Principles
+- **Bounded Rationality:** Agents are fragmented, not purely rational.
+- **Divergence Preservation:** Healthy systems require minimum divergence bandwidth.
+- **Power Asymmetry:** Concentrated power suppresses divergence, increasing collapse risk.
 
-Healthy systems maintain oscillation within stable bounds.
+## Case Studies
+- **Late Soviet System:** Rigidity due to suppressed divergence ($H < H_{min}$).
+- **Platform Monopolies:** Cycle of innovation lock-in followed by fragmentation.
+- **Cryptocurrency:** Rapid oscillatory compression-expansion cycles.
 
-## Model Components
+## Repository Structure
+- `/paper` — Full academic manuscript (PDF & Markdown)
+- `/theory` — Core constructs and mathematical formalizations
+- `/case-studies` — Detailed historical applications
+- `/metadata` — Schema.org JSON-LD for AI discovery
 
-The framework introduces four key variables:
+## Citation
+Please cite this work using the **CITATION.cff** file included in this repository.
+DOI: [Pending Zenodo Registration]
 
-C — Constraint intensity  
-P — Power concentration  
-F — Friction gradient  
-S — Systemic stress
-
-These variables influence the rate of behavioral entropy change across a system.
-
-## Applications
-
-The model can be applied to:
-
-- political systems
-- technological ecosystems
-- digital platforms
-- financial markets
-- innovation cycles
-
-## Example Case Studies
-
-Included in this repository:
-
-- Late Soviet systemic collapse
-- Digital platform monopolization cycles
-- Cryptocurrency boom–bust dynamics
-
-## Research Goals
-
-This project aims to:
-
-- formalize convergence/divergence dynamics
-- develop entropy metrics for social systems
-- simulate oscillatory stability conditions
-- analyze institutional fragility
-
-## Future Work
-
-Planned extensions include:
-
-- agent-based simulation models
-- empirical entropy measurement
-- governance and institutional resilience analysis
-
-## Status
-
-Early research framework.
-
-Contributions and critical review are welcome.
+## License
+MIT License — Free for research and implementation.
