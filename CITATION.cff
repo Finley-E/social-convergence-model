@@ -4,8 +4,9 @@ message: "If you use this model, please cite it as below."
 authors:
   - family-names: Francois
     given-names: Finley Essai
+    orcid: "https://orcid.org/0000-0000-0000-0000" 
 date-released: 2026
-repository-code: https://github.com/yourusername/social-convergence-model
+repository-code: "https://github.com/yourusername/social-convergence-model"
 abstract: >
   A systems framework modeling oscillatory dynamics between convergence and divergence
   in distributed adaptive social and technological systems.
