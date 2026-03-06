@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Convergence–Divergence Dual Model",
+  "author": {
+    "@type": "Person",
+    "name": "Finley Essai Francois"
+  },
+  "datePublished": "2026",
+  "keywords": [
+    "social convergence",
+    "divergence dynamics",
+    "complex systems",
+    "entropy theory",
+    "distributed adaptive systems"
+  ],
+  "description": "A theoretical framework explaining oscillation between convergence and divergence in distributed adaptive systems.",
+  "url": "https://github.com/yourusername/social-convergence-model",
+  "about": {
+    "@type": "Thing",
+    "name": "Social Convergence Model",
+    "alternateName": "CDDM"
+  }
+}
